@@ -14,7 +14,9 @@
 
 2.  **Starting the app**
 
+    ```shell
     yarn storybook
+    ```
 
 ## What I learned
 
