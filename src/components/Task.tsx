@@ -1,6 +1,6 @@
 import React from "react";
 
-interface TaskProps {
+export type TaskProps = {
   task: {
     id: string;
     title: string;
@@ -8,7 +8,7 @@ interface TaskProps {
   };
   onArchiveTask?: (id: string) => void;
   onPinTask?: (id: string) => void;
-}
+};
 
 const Task: React.FC<TaskProps> = ({task, onArchiveTask, onPinTask}) => {
   return (
