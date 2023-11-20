@@ -13,4 +13,11 @@
     ```
 
 2.  **Starting the app**
+
     yarn storybook
+
+## What I learned
+
+- how stories and components work together
+- the structure and layout of the story: meta then variants
+- practicing adding types by converting to TS
