@@ -4,12 +4,12 @@ import Task, { TaskProps } from "./Task";
 type TaskListProps = {
   loading: boolean;
   tasks: TaskProps["task"][];
-  onPinTask: TaskProps["onPinTask"];
-  onArchiveTask: TaskProps["onArchiveTask"];
+  onPinTask?: TaskProps["onPinTask"];
+  onArchiveTask?: TaskProps["onArchiveTask"];
 };
 
 const TaskList: React.FC<TaskListProps> = ({
-  loading,
+  loading = false,
   tasks,
   onPinTask,
   onArchiveTask,
